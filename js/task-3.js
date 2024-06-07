@@ -11,4 +11,4 @@ function oninputNameInput() {
     } else {
         outputName.textContent = 'Anonymous';
     }
-}
+};

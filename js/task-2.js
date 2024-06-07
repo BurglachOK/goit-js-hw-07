@@ -34,9 +34,6 @@ const newUlItems = images.map(image => {
   imageElement.classList.add('gallery-image');
   liElem.appendChild(imageElement);
   return liElem;
-
-
-
 });
 
 ulElem.append(...newUlItems);
